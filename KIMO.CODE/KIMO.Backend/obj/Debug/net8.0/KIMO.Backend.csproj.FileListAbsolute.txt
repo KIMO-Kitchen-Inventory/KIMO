@@ -1,0 +1,11 @@
+C:\Users\rolan\Desktop\KIMO\KIMO.CODE\KIMO.Backend\bin\Debug\net8.0\KIMO.Backend.deps.json
+C:\Users\rolan\Desktop\KIMO\KIMO.CODE\KIMO.Backend\bin\Debug\net8.0\KIMO.Backend.dll
+C:\Users\rolan\Desktop\KIMO\KIMO.CODE\KIMO.Backend\bin\Debug\net8.0\KIMO.Backend.pdb
+C:\Users\rolan\Desktop\KIMO\KIMO.CODE\KIMO.Backend\obj\Debug\net8.0\KIMO.Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rolan\Desktop\KIMO\KIMO.CODE\KIMO.Backend\obj\Debug\net8.0\KIMO.Backend.AssemblyInfoInputs.cache
+C:\Users\rolan\Desktop\KIMO\KIMO.CODE\KIMO.Backend\obj\Debug\net8.0\KIMO.Backend.AssemblyInfo.cs
+C:\Users\rolan\Desktop\KIMO\KIMO.CODE\KIMO.Backend\obj\Debug\net8.0\KIMO.Backend.csproj.CoreCompileInputs.cache
+C:\Users\rolan\Desktop\KIMO\KIMO.CODE\KIMO.Backend\obj\Debug\net8.0\KIMO.Backend.dll
+C:\Users\rolan\Desktop\KIMO\KIMO.CODE\KIMO.Backend\obj\Debug\net8.0\refint\KIMO.Backend.dll
+C:\Users\rolan\Desktop\KIMO\KIMO.CODE\KIMO.Backend\obj\Debug\net8.0\KIMO.Backend.pdb
+C:\Users\rolan\Desktop\KIMO\KIMO.CODE\KIMO.Backend\obj\Debug\net8.0\ref\KIMO.Backend.dll
