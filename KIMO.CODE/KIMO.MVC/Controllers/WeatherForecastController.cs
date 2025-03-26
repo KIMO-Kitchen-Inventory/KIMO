@@ -6,16 +6,19 @@ namespace KIMO.MVC.Controllers;
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
 {
-    private static readonly string[] Summaries = new[]
+
+	private readonly IConfiguration _configuration;
+	private static readonly string[] Summaries = new[]
     {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
     private readonly ILogger<WeatherForecastController> _logger;
 
-    public WeatherForecastController(ILogger<WeatherForecastController> logger)
+    public WeatherForecastController(ILogger<WeatherForecastController> logger, IConfiguration configuration)
     {
         _logger = logger;
+        _configuration = configuration;
     }
 
     [HttpGet]
@@ -29,4 +32,11 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
+
+	[HttpGet]
+    [Route("environment")]
+	public IActionResult GetEnvrionment()
+	{
+        return Ok(new { environmentName = _configuration.GetValue<string>("environmentName") });
+	}
 }
